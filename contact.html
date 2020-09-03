@@ -32,9 +32,9 @@ Released   : 20131201
 		</div>
 		<div id="menu">
 			<ul>
-				<li class="current_page_item"><a href="./index.html" accesskey="1" title="">Home</a></li>
-				<li><a href="./projects.html" title="">Projects</a></li>
-				<li><a href="./contact.html" title="">Contact</a></li>
+				<li><a href="./index.html" accesskey="1" title="">Home</a></li>
+                <li><a href="./projects.html" title="">Projects</a></li>
+                <li class="current_page_item"><a href="./contact.html" title="">Contact</a></li>
 				<li><a href="./images/Henry_McGehee_Resume_2020.pdf" title="">Resume</a></li>
 			</ul>
 		</div>
@@ -46,16 +46,31 @@ Released   : 20131201
 		<div id="content">
 
 			<div class="title">
-				<div class="intro">
-					<h2>Hi! I'm <span class="yellow">Henry</span>.</h2>
-				</div>
-
-				<div class="title">
-					<h2>About</h2>
-					<h4>I am a full stack software engineer and web designer focused largely on the objective of creating apps and utilities that assist in user productivity. I first developed interest in code languages while working as a sound designer for games. I soon realized that programming work would be a more suitable career path with the changing social and economic landscape, as adaptability is one of my core values as a creator and designer. Through completing the User Experience Design program with General Assembly as well as working on my own personal projects, I have developed a wide range of programming skills across many languages and applications. Regardless of the medium, however, I am always intensely motivated by the idea of bringing a concept to realization.</h4> 
-				</div>
+				<h2>Contact</h2>
+				<form action="mailto:hdmcgehee@gmail.com" method="get">
+					<div>
+					  <label class="byline" for="name">Name:
+						<input type="text" class="form-control" name="name" id="name" />
+					  </label>
+					</div>
+					<div>
+					  <label class="byline" for="email">Email:
+						<input type="text" class="form-control" name="email" id="email" />
+					  </label>
+					</div>
+					<div>
+					  <label class="byline">Comments:</label>
+					  <br />
+					  <textarea name="comments" class="form-control" rows="12" cols="35"></textarea>
+					</div>
+					<div class="emailBtn">
+					  <input type="submit" class="btn btn-primary" name="submit" value="Send" />
+					</div>
+				  </form>
 			</div>
+		
 		</div>
+		
 	</div>
 </div>
 <div id="copyright" class="container">

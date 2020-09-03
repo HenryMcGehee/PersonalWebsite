@@ -11,7 +11,7 @@
 		font-family: 'Open Sans', sans-serif;
 		font-size: 11pt;
 		font-weight: 300;
-		color: #6c6c6c
+		color: #8f8f8f
 	}
 	
 	
@@ -35,7 +35,7 @@
 	}
 
 	li:hover {
-		background-color: darkgrey;
+		background-color: rgb(39, 39, 39);
 	}
 	
 	p
@@ -44,8 +44,26 @@
 		color: white;
 	}
 	
-	strong
+	.contact
 	{
+		padding: 5%;
+	}
+
+	.center
+	{
+		display: flex;
+		justify-content: center;
+	}
+
+	.yellow
+	{
+		color: #ECC00F;
+	}
+
+	.intro
+	{
+		padding: 6% 0 6% 0;
+
 	}
 	
 	a
