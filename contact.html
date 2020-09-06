@@ -10,12 +10,7 @@
 <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800" rel="stylesheet" />
 <link href="default.css" rel="stylesheet" type="text/css" media="all" />
 <link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
-<scripttype="text/javascript"src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
-<scripttype="text/javascript">
-(function() {
-emailjs.init("user_nFluq1ivBLyw3CdWTxKa8");
-})();
-</script>
+
 </head>
 <body>
 <div id="header-wrapper">
@@ -48,13 +43,13 @@ emailjs.init("user_nFluq1ivBLyw3CdWTxKa8");
 					</div>
 					<div>
 					  <label class="byline" for="email">Email:
-						<input type="text" class="form-control" name="email" id="email" required/>
+						<input type="email" class="form-control" name="email" id="email" required/>
 					  </label>
 					</div>
 					<div>
 					  <label class="byline">Comments:</label>
 					  <br />
-					  <textarea name="comments" class="form-control" rows="12" cols="35" required></textarea>
+					  <textarea name="message" class="form-control" rows="12" cols="35" required></textarea>
 					</div>
 					<div class="emailBtn">
 					  <input type="submit" class="btn btn-primary" name="submit" value="Send" />
