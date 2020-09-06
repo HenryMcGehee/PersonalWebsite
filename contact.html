@@ -35,7 +35,7 @@
 
 			<div class="title">
 				<h2>Contact</h2>
-				<form action="contactform.php" method="POST">
+				<form action="POST" data-netlify="true">
 					<div>
 					  <label class="byline" for="name">Name:
 						<input type="text" class="form-control" name="name" id="name" required />
@@ -50,7 +50,8 @@
 					  <label class="byline">Comments:</label>
 					  <br />
 					  <textarea name="message" class="form-control" rows="12" cols="35" required></textarea>
-					</div>
+                    </div>
+                    <div data-netlify-recaptcha="true"></div>
 					<div class="emailBtn">
 					  <input type="submit" class="btn btn-primary" name="submit" value="Send" />
 					</div>
