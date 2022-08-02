@@ -329,7 +329,7 @@
 	#header
 	{
 		position: relative;
-		height: 150px;
+		height: 100px;
 	}
 
 /*********************************************************************************/
@@ -386,7 +386,7 @@
 	{
 		display: block;
 		padding: 0em 1.5em;
-		height: 150px;
+		height: 100px;
 		letter-spacing: 0.20em;
 		line-height: 150px;
 		text-decoration: none;
@@ -501,7 +501,7 @@
 	#page
 	{
 		overflow: hidden;
-		padding: 6em 0em;
+		padding: 2em 0em;
 	}
 
 /*********************************************************************************/
@@ -523,7 +523,7 @@
 	#copyright
 	{
 		overflow: hidden;
-		padding: 3em 0em;
+		padding: 1em 0em;
 	}
 	
 	#copyright p
