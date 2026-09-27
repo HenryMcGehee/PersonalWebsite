@@ -13,6 +13,12 @@
 		font-weight: 300;
 		color: #8f8f8f
 	}
+	iframe 
+	{
+  		width: 100%;
+  		height: auto;
+  		aspect-ratio: 16 / 9; /* Automatically calculates the height based on a 16:9 widescreen ratio */
+	}
 	
 	
 	h1, h2, h3
